@@ -1,3 +1,4 @@
+
 import { Routes, Route } from "react-router";
 import Home from './assets/Componentes/Home/Home';
 import Acerca from './assets/Componentes/Acerca/Acerca';
@@ -18,6 +19,7 @@ function App() {
         <Route path="/carrito" element={<Carrito />}></Route>
       </Routes>
     </>
+
   );
 };
 
